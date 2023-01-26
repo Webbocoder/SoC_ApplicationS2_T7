@@ -1,4 +1,9 @@
 /* Copy and paste your CSS from CodePen into here */
+* {
+  font-family: monospace;
+  font-size: large;
+}
+
 body{
   background-color: rgb(230, 230, 230);
   color: black;
@@ -35,20 +40,28 @@ h3 {
 .inline-img {
   max-width: 400px;
   max-height: 152px;
-  display: inline-block;
+  display: inline;
   border-radius: 7.5%;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+#img-webb {
+  max-height: 250px;
 }
 
 .text-align-center {
   text-align: center;
 }
 
-iframe {
+/* Below selects only the iframes within the seminal-works-div */
+#seminal-works-div iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#influence-div iframe {
+  /* I wasn't sure how to horizontally center both the iframe and image next to each other, so I added an left margin of arbitrary length. */  
+  margin-left: 30%;
 }
 
 #conclusion-description-line-1{
