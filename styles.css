@@ -1,9 +1,58 @@
 /* Copy and paste your CSS from CodePen into here */
-h1 {
-  font-size: 50px;
+body{
+  background-color: rgb(230, 230, 230);
+  color: black;
 }
 
-#image {
-  max-width: 100%;
+h1, h2, h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px
+}
+
+h3 {
+  font-size: 20px;
+}
+
+#title {
+  text-decoration: underline;
+}
+
+#img-reich {
+  max-width: 400px;
   display: block;
+  border-radius: 7.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inline-img {
+  max-width: 400px;
+  max-height: 152px;
+  display: inline-block;
+  border-radius: 7.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#conclusion-description-line-1{
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
 }
