@@ -59,10 +59,10 @@ h3 {
   margin-right: auto;
 }
 
-#influence-div iframe {
-  /* I wasn't sure how to horizontally center both the iframe and image next to each other, so I added an left margin of arbitrary length. */  
+/* #influence-div iframe {
+  I wasn't sure how to horizontally center both the iframe and image next to each other, so I added an left margin of arbitrary length.
   margin-left: 30%;
-}
+} */  
 
 #conclusion-description-line-1{
   text-decoration: underline;
